@@ -20,6 +20,7 @@ image: /assets/img/impsy-s1-soundout.jpg
         </p>
         <div class="d-flex flex-wrap gap-2">
           <a class="btn btn-impsy btn-lg" href="{{ '/get-started/' | relative_url }}">Get started</a>
+          <a class="btn btn-outline-secondary btn-lg" href="{{ '/workshop/' | relative_url }}">IMPSYpi workshop</a>
           <a class="btn btn-outline-secondary btn-lg" href="{{ site.links.source }}">Source on GitHub</a>
           <a class="btn btn-outline-secondary btn-lg" href="{{ '/research/' | relative_url }}">Read the research</a>
         </div>
@@ -85,7 +86,7 @@ image: /assets/img/impsy-s1-soundout.jpg
         without re-training. A web interface exposes recording, training, and inference.
       </p>
       <p class="mb-0">
-        The companion <a href="{{ site.links.pi }}">IMPSYpi</a> distribution packages the toolkit for Raspberry Pi Zero 2 W, 3, 4, and 5 so that an intelligent instrument can run untethered on stage.
+        The companion <a href="{{ site.links.pi }}">IMPSYpi</a> distribution packages the toolkit for Raspberry Pi Zero 2 W, 3, 4, and 5 so that an intelligent instrument can run untethered on stage. The <a href="{{ '/workshop/' | relative_url }}">IMPSYpi workshop</a> walks through the whole process end to end.
       </p>
     </div>
   </div>

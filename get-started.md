@@ -8,6 +8,8 @@ description: How to install IMPSY, capture gesture data, train a mixture density
 
 IMPSY is a Python project. There are two main paths: a **desktop install** for development, training, and recording, and the **IMPSYpi** distribution for running an intelligent instrument on a Raspberry Pi.
 
+> **Looking for the most complete walkthrough?** The [IMPSYpi Workshop]({{ '/workshop/' | relative_url }}) takes you end-to-end: Docker install on a laptop, training your own MDRNN, flashing the Raspberry Pi image, and connecting IMPSY to a micro:bit or Pure Data instrument. The page below is the short version — if you want the full guided tour, start there.
+
 ## 1. Install IMPSY on your computer
 
 Clone the [main repository]({{ site.links.source }}) and follow the install instructions there. IMPSY uses a standard Python toolchain and should work on macOS, Linux, and Windows.
