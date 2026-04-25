@@ -5,10 +5,12 @@
   --impsy-accent: #c2410c;        /* burnt orange — performance / signal */
   --impsy-accent-fg: #ffffff;
   --impsy-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Mono", Menlo, monospace;
+  --bs-code-color: #1f2937;       /* slate-800: replaces Bootstrap's default pink */
 }
 
 [data-bs-theme="dark"] {
   --impsy-accent: #fb923c;
+  --bs-code-color: #e5e7eb;       /* slate-200 for dark mode */
 }
 
 html { scroll-behavior: smooth; }
