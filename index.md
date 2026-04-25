@@ -1,6 +1,6 @@
 ---
 layout: home
-title: IMPSY — Intelligent Musical Prediction System
+title: IMPSY — Intelligent Musical Instrument Platform
 description: A research toolkit for building intelligent musical instruments with mixture density recurrent neural networks. Runs on Raspberry Pi, talks OSC, MIDI, serial, and the web.
 permalink: /
 image: /assets/img/impsy-s1-soundout.jpg
@@ -10,7 +10,7 @@ image: /assets/img/impsy-s1-soundout.jpg
   <div class="container">
     <div class="row align-items-center g-5">
       <div class="col-lg-6">
-        <p class="hero-eyebrow mb-3">Intelligent Musical Prediction System</p>
+        <p class="hero-eyebrow mb-3">Intelligent Musical Instrument Platform</p>
         <h1 class="display-4 mb-3">Instruments that listen, predict, and play along.</h1>
         <p class="hero-lede mb-4">
           IMPSY is a research toolkit for building intelligent musical instruments using
