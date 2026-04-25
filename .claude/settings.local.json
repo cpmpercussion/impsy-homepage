@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p assets/img)",
+      "Bash(curl -sSLfo ipad-demo-controller.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/ipad-demo-controller-left.jpg\")",
+      "Bash(curl -sSLfo impsy-s1-soundout.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/impsy-s1-soundout-2026.jpg\")",
+      "Bash(curl -sSLf \"https://api.github.com/repos/cpmpercussion/impsypi-opening-design-space-paper/contents/figures\")",
+      "Bash(python3 -c \"import sys,json; [print\\(x['name']\\) for x in json.load\\(sys.stdin\\) if x['name'].lower\\(\\).endswith\\(\\('.jpg','.jpeg','.png'\\)\\)]\")",
+      "Bash(curl -sSLfo impsy-diagram.png \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/impsy-diagram.png\")",
+      "Bash(curl -sSLfo intelligent-microfreak.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/intelligent-microfreak.jpg\")",
+      "Bash(curl -sSLfo intelligent-s1.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/intelligent-s-1.jpg\")",
+      "Bash(curl -sSLfo desk-shot.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/desk-shot.jpg\")",
+      "Bash(curl -sSLfo garage-concert.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/garage-concert-arturia.jpg\")",
+      "Bash(curl -sSLfo ipad-perf.jpg \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/ipad-perf-1.jpg\")",
+      "Bash(curl -sSLfo impsy-web-interface.png \"https://raw.githubusercontent.com/cpmpercussion/impsypi-opening-design-space-paper/main/figures/impsy-web-interface.png\")",
+      "Bash(curl -sSLf \"https://api.github.com/repos/cpmpercussion/Understanding-Musical-Predictions-with-EMPI/contents\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(x['name']\\) for x in data if x['name'].lower\\(\\).endswith\\(\\('.jpg','.jpeg','.png'\\)\\)]\")",
+      "Bash(bundle install *)",
+      "Bash(bundle exec *)"
+    ]
+  }
+}

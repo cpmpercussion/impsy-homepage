@@ -1,55 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: IMPSY
+tagline: Intelligent Musical Prediction System
+description: >-
+  IMPSY is an Intelligent Musical Prediction System: a research toolkit for
+  building intelligent musical instruments using mixture density recurrent
+  neural networks. It supports flexible OSC, MIDI, serial, and web I/O, and
+  runs on Raspberry Pi for embedded creative applications.
+author:
+  name: Charles Martin
+  url: https://charlesmartin.au
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/impsy-homepage"
+url: "https://cpmpercussion.github.io"
+
+repository: cpmpercussion/impsy-homepage
+github_username: cpmpercussion
 
 # Build settings
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Site nav
+nav:
+  - title: Home
+    url: /
+  - title: Get Started
+    url: /get-started/
+  - title: Research
+    url: /research/
+  - title: Gallery
+    url: /gallery/
+
+# External links surfaced in the footer / home page
+links:
+  source: https://github.com/cpmpercussion/impsy
+  pi: https://github.com/cpmpercussion/impsy-pi
+  videos: https://www.youtube.com/watch?v=GJ6vjhjv-TY&list=PLnRoOVbpGXfa9USZtfxtIkMhU1TfOMKQA
+  charles: https://charlesmartin.au
+  smcclab: https://smcclab.au
+  mishmash: https://mishmash.no
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
