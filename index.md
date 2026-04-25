@@ -1,6 +1,6 @@
 ---
 layout: home
-title: IMPSY — Intelligent Musical Instrument Platform
+title: "IMPSY: Intelligent Musical Instrument Platform"
 description: A research toolkit for building intelligent musical instruments with mixture density recurrent neural networks. Runs on Raspberry Pi, talks OSC, MIDI, serial, and the web.
 permalink: /
 image: /assets/img/impsy-s1-soundout.jpg
@@ -38,9 +38,9 @@ image: /assets/img/impsy-s1-soundout.jpg
     <div class="col-lg-8">
       <h2 class="fw-semibold mb-3">What IMPSY does</h2>
       <p class="lead text-body-secondary mb-0">
-        IMPSY captures a stream of musical gestures — from a controller, a sensor, a touchscreen, anything —
+        IMPSY captures a stream of musical gestures from a controller, sensor, or touchscreen,
         learns the temporal shape of a performer's choices, and generates plausible continuations in real time.
-        It is intended to be embedded inside instruments or connected to them as a lightweight module.
+        It can run embedded inside an instrument, or as a separate module connected to one.
       </p>
     </div>
   </div>
@@ -50,7 +50,7 @@ image: /assets/img/impsy-s1-soundout.jpg
       <div class="workflow-step">
         <span class="step-num">01 / SENSE</span>
         <h3>Capture gestures</h3>
-        <p>Stream multi-dimensional control data into IMPSY over OSC, MIDI, serial, or websockets — whatever your instrument speaks.</p>
+        <p>Stream multi-dimensional control data into IMPSY over OSC, MIDI, serial, or websockets, whichever your instrument speaks.</p>
       </div>
     </div>
     <div class="col-md-4">
@@ -96,7 +96,7 @@ image: /assets/img/impsy-s1-soundout.jpg
     <div class="col-lg-8">
       <h2 class="fw-semibold mb-3">Instruments built with IMPSY</h2>
       <p class="text-body-secondary">
-        A short tour of the kinds of instruments we've created with IMPSY.
+        A short tour of instruments we've built with IMPSY.
         Most of these images come from the <a href="https://github.com/cpmpercussion/impsypi-opening-design-space-paper">2026 design-space paper</a>.
       </p>
     </div>

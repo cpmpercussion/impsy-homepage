@@ -24,22 +24,22 @@ The repository README is the source of truth for environment setup, dependency v
 
 IMPSY treats input and output as separate concerns from the model. You configure adapters for whatever your instrument speaks:
 
-- **OSC** — the original and most flexible path; works with Pure Data, Max, SuperCollider, TouchOSC, and most DAWs via plugins
-- **MIDI** — for connecting to off-the-shelf synths and controllers
-- **Serial** — for microcontrollers and custom hardware (sensors, touch surfaces, gesture devices)
-- **Web** — a built-in interface for recording, training, and live performance from a browser
+- **OSC**: the original and most flexible path; works with Pure Data, Max, SuperCollider, TouchOSC, and most DAWs via plugins.
+- **MIDI**: for connecting to off-the-shelf synths and controllers.
+- **Serial**: for microcontrollers and custom hardware (sensors, touch surfaces, gesture devices).
+- **Web**: a built-in interface for recording, training, and live performance from a browser.
 
 A single trained model can be driven by any of these without retraining.
 
 ## 3. Record some gestures
 
-The basic workflow is to **record yourself playing first**. IMPSY learns the temporal shape of *your* performance choices — the model is small enough that a few minutes of focused recording is often enough to start producing interesting predictions.
+The basic workflow is to **record yourself playing first**. IMPSY learns the temporal shape of *your* performance choices, and the model is small enough that a few minutes of focused recording is often enough to start producing useful predictions.
 
 The web interface makes this straightforward: hit record, perform, save the log. The CLI offers the same with more control over file paths and dimensions.
 
 ## 4. Train a mixture density RNN
 
-IMPSY's prediction model is a small mixture density recurrent network. Training is done locally — there is no cloud component, no account, and no required GPU for modestly sized models. Training a usable instrument on a few minutes of data takes minutes, not hours.
+IMPSY's prediction model is a small mixture density recurrent network. Training runs locally: no cloud component, no account, no required GPU for modestly sized models. Training a usable instrument on a few minutes of data takes minutes, not hours.
 
 See the main repository for the current training command, hyperparameter defaults, and tips for tuning the mixture parameters.
 

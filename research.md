@@ -6,7 +6,7 @@ permalink: /research/
 description: Publications and research history of the IMPSY (Intelligent Musical Prediction System) project, from the early RoboJam MDRNN work through to the 2026 design-space paper and the web interface.
 ---
 
-IMPSY sits in a research thread that began with mixture density recurrent networks for musical interaction and has grown into a general toolkit for intelligent instruments. The papers below — both core IMPSY development and work by students and collaborators that builds on the platform — describe the system, the ideas, and the studies that have shaped it.
+IMPSY sits in a research thread that began with mixture density recurrent networks for musical interaction and has grown into a general toolkit for intelligent instruments. The papers below cover both core IMPSY development and work by students and collaborators that builds on the platform.
 
 ## Core IMPSY publications
 
@@ -26,7 +26,7 @@ IMPSY sits in a research thread that began with mixture density recurrent networ
   <li>
     <div class="pub-year">2020</div>
     <div class="pub-title">Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning</div>
-    <p class="mb-2 text-body-secondary">Charles Martin, Kyrre Glette, Tønnes Nygaard, and Jim Torresen. <em>Frontiers in Artificial Intelligence</em>. A study of embodied musical prediction using the EMPI hardware controller — how performers experience, interpret, and play with predictive output from an MDRNN.</p>
+    <p class="mb-2 text-body-secondary">Charles Martin, Kyrre Glette, Tønnes Nygaard, and Jim Torresen. <em>Frontiers in Artificial Intelligence</em>. A study of embodied musical prediction using the EMPI hardware controller: how performers experience, interpret, and play with predictive output from an MDRNN.</p>
     <a href="https://doi.org/10.3389/frai.2020.00006">DOI →</a>
   </li>
   <li>
@@ -45,7 +45,7 @@ IMPSY sits in a research thread that began with mixture density recurrent networ
   <li>
     <div class="pub-year">2017</div>
     <div class="pub-title">Deep Models for Ensemble Touch-Screen Improvisation</div>
-    <p class="mb-2 text-body-secondary">Charles Martin, Kai Olav Ellefsen, and Jim Torresen. <em>Proceedings of Audio Mostly 2017</em>. Early work applying deep sequence models to musical ensemble interaction — part of the thread leading into RoboJam and IMPS.</p>
+    <p class="mb-2 text-body-secondary">Charles Martin, Kai Olav Ellefsen, and Jim Torresen. <em>Proceedings of Audio Mostly 2017</em>. Early work applying deep sequence models to musical ensemble interaction; part of the thread leading into RoboJam and IMPS.</p>
     <a href="https://doi.org/10.1145/3123514.3123556">DOI →</a>
   </li>
 </ul>
@@ -83,12 +83,12 @@ These papers extend IMPSY or the MDRNN approach into new instruments, interfaces
 ## Project timeline
 
 <ul class="timeline">
-  <li><span class="year">2017–18</span> Started the musical MDRNN idea with the RoboJam project — collaborative touchscreen performance driven by a mixture density network.</li>
+  <li><span class="year">2017–18</span> Started the musical MDRNN idea with the RoboJam project: collaborative touchscreen performance driven by a mixture density network.</li>
   <li><span class="year">2019</span> Released IMPS, generalising the MDRNN approach to arbitrary musical interaction over OSC.</li>
   <li><span class="year">2020</span> Studied IMPS in performance with the EMPI embodied controller; published findings on predictive interaction in <em>Frontiers in AI</em>.</li>
   <li><span class="year">2024</span> Rebuilt IMPS as <strong>IMPSY</strong> with broader I/O, easier configuration, and a focus on Raspberry Pi deployment for new intelligent instruments.</li>
   <li><span class="year">2024</span> Organised the <a href="https://smcclab.au/nime-embedded-ai/">Building NIMEs with Embedded AI</a> workshop at NIME 2024.</li>
-  <li><span class="year">2025</span> SMCC Lab students publish the first IMPSY-based papers — Wang (<em>AI See, You See</em>, CHI EA) and Ma (<em>Touching Wires</em>, NIME).</li>
+  <li><span class="year">2025</span> SMCC Lab students publish the first IMPSY-based papers: Wang (<em>AI See, You See</em>, CHI EA) and Ma (<em>Touching Wires</em>, NIME).</li>
   <li><span class="year">2026</span> Published the IMPSY design-space paper and web-interface paper at NIME 2026; established connections with the <a href="{{ site.links.mishmash }}">Mishmash</a> Centre for AI and Creativity.</li>
 </ul>
 
@@ -101,4 +101,4 @@ Recorded music made with IMPSY-based instruments:
 
 ## Wider context
 
-The IMPSY project is developed at the [Sound, Music, & Creative Computing Lab]({{ site.links.smcclab }}) by [Charles Martin]({{ site.links.charles }}) and collaborators. For ongoing news, talks, and related work, those sites are the best place to look — there is intentionally no blog or news feed here.
+The IMPSY project is developed at the [Sound, Music, & Creative Computing Lab]({{ site.links.smcclab }}) by [Charles Martin]({{ site.links.charles }}) and collaborators. For ongoing news, talks, and related work, those sites are the best place to look. There is intentionally no blog or news feed here.
