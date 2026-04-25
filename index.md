@@ -40,7 +40,7 @@ image: /assets/img/impsy-s1-soundout.jpg
       <p class="lead text-body-secondary mb-0">
         IMPSY captures a stream of musical gestures — from a controller, a sensor, a touchscreen, anything —
         learns the temporal shape of a performer's choices, and generates plausible continuations in real time.
-        It is intended to be embedded inside instruments, not bolted on after the fact.
+        It is intended to be embedded inside instruments or connected to them as a lightweight module.
       </p>
     </div>
   </div>
@@ -82,12 +82,10 @@ image: /assets/img/impsy-s1-soundout.jpg
       <p>
         IMPSY is a Python package with a small footprint and clear configuration. Inputs and outputs are decoupled
         from the model, so the same trained network can drive a synthesizer, an iPad app, or a hardware controller
-        without re-training. A web interface exposes recording, training, and inference for users who would rather
-        not edit YAML.
+        without re-training. A web interface exposes recording, training, and inference.
       </p>
       <p class="mb-0">
-        The companion <a href="{{ site.links.pi }}">IMPSYpi</a> distribution packages the toolkit for Raspberry Pi 4
-        and 5 so that an intelligent instrument can run untethered, on stage or in a studio rack.
+        The companion <a href="{{ site.links.pi }}">IMPSYpi</a> distribution packages the toolkit for Raspberry Pi Zero 2 W, 3, 4, and 5 so that an intelligent instrument can run untethered on stage.
       </p>
     </div>
   </div>
@@ -98,7 +96,7 @@ image: /assets/img/impsy-s1-soundout.jpg
     <div class="col-lg-8">
       <h2 class="fw-semibold mb-3">Instruments built with IMPSY</h2>
       <p class="text-body-secondary">
-        A short tour of the kinds of instruments IMPSY has been embedded in.
+        A short tour of the kinds of instruments we've created with IMPSY.
         Most of these images come from the <a href="https://github.com/cpmpercussion/impsypi-opening-design-space-paper">2026 design-space paper</a>.
       </p>
     </div>
@@ -128,7 +126,7 @@ image: /assets/img/impsy-s1-soundout.jpg
   <div class="row">
     <div class="col-md-6">
       <h2 class="fw-semibold">Read the research</h2>
-      <p>IMPSY grew out of a sequence of NIME and CHI papers on mixture density networks for musical interaction, embodied prediction, and the design space of intelligent instruments.</p>
+      <p>IMPSY grew out of a sequence of research papers on mixture density networks for musical interaction, embodied prediction, and the design space of intelligent instruments.</p>
       <a class="btn btn-outline-secondary" href="{{ '/research/' | relative_url }}">Publications →</a>
     </div>
     <div class="col-md-6">
