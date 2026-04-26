@@ -26,7 +26,7 @@ image: /assets/img/impsy-s1-soundout.jpg
         </div>
       </div>
       <div class="col-lg-6 hero-figure">
-        <img src="{{ '/assets/img/impsy-s1-soundout.jpg' | relative_url }}"
+        <img src="{{ '/assets/img/impsy-s-1-square.jpg' | relative_url }}"
              alt="An IMPSY-driven Korg S-1 synthesizer in performance, with a Raspberry Pi controller running the predictive model."
              loading="eager">
       </div>
