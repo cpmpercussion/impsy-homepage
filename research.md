@@ -15,7 +15,7 @@ IMPSY sits in a research thread that began with mixture density recurrent networ
     <div class="pub-year">2026</div>
     <div class="pub-title">Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments</div>
     <p class="mb-2 text-body-secondary">Charles Martin. <em>International Conference on New Interfaces for Musical Expression (NIME)</em>, London. Introduces the Raspberry-Pi-based IMPSY platform and reflects on a two-year first-person artistic research process with five prototype instruments (Intelligent Volca, MicroFreak, S-1, DAW, Setup). Argues that remapping can substitute for retraining, that fast input interleaving is a viable co-creative strategy, and that small-data AI models are a portable design resource.</p>
-    <a href="https://github.com/cpmpercussion/impsypi-opening-design-space-paper">Paper repository →</a>
+    <a href="https://arxiv.org/abs/2604.23583">arXiv →</a>
   </li>
   <li>
     <div class="pub-year">2022</div>
